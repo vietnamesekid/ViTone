@@ -1,0 +1,7 @@
+# ViTone dataset definition: sources and where their raw files live.
+# Run-time options (--work-dir, --workers) are passed on the command line.
+sources:
+  haveasip:
+    path: ../corpus/raw/haveasip  # relative to this file
+    glob: "*.m4a"
+    language: vi

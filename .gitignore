@@ -1,7 +1,5 @@
 # Audio data (never commit third-party audio)
-data/
-datasets/
-raw/
+/corpus/
 *.wav
 *.mp3
 *.m4a
@@ -10,6 +8,12 @@ raw/
 *.opus
 *.webm
 *.aac
+*.aiff
+*.caf
+*.mp4
+*.mkv
+*.mov
+*.m4b
 
 # Dataset shards and manifests built from audio
 *.tar
@@ -17,7 +21,7 @@ raw/
 *.parquet
 
 # Model checkpoints
-checkpoints/
+/checkpoints/
 *.pt
 *.pth
 *.ckpt
@@ -32,9 +36,9 @@ venv/
 
 # Notebooks / logs
 .ipynb_checkpoints/
-wandb/
-runs/
-logs/
+/wandb/
+/runs/
+/logs/
 
 # OS / editor
 .DS_Store
