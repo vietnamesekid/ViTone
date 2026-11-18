@@ -1,0 +1,42 @@
+# Audio data (never commit third-party audio)
+data/
+datasets/
+raw/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.webm
+*.aac
+
+# Dataset shards and manifests built from audio
+*.tar
+*.arrow
+*.parquet
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Notebooks / logs
+.ipynb_checkpoints/
+wandb/
+runs/
+logs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
